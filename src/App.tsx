@@ -10,7 +10,7 @@ function App() {
   const [gameFinished, setGameFinished] = useState(false);
 
   const styles = {
-    container: { padding: 20, textAlign: "center", color: "white" },
+    container: { padding: 20, textAlign: "center" as "center", color: "white" },
     chooseContainer: { padding: 20, fontSize: "1.5rem" },
     chooseGridButton: {
       padding: 20,
