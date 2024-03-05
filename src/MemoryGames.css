@@ -34,6 +34,10 @@
   padding: 20px;
 }
 
+.MemoryGame_padding20 div {
+  filter: drop-shadow(1px 1px 1px #7F70FF);
+}
+
 @media only screen and (max-width: 600px) {
   .MemoryGame_gridTemplateColumns4 {
     grid-template-columns: repeat(4, 85px);

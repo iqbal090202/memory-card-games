@@ -71,8 +71,8 @@ function App() {
       )}
       {gridNumber > 0 && showUnsuccessful && (
         <MemoryGames
-          holeCardsColor={"#E9B508"}
-          foundCardsColor={"#CED5F3"}
+          holeCardsColor={"#CED5F3"}
+          foundCardsColor={"#E9B508"}
           gridNumber={gridNumber}
           gameFinished={() => setGameFinished(true)}
           notFoundPair={() => {
